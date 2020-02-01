@@ -1,0 +1,37 @@
+{
+  "name": "醋溜儿文学",
+  "version": 100,
+  "category": 1,
+  "url": "http://m.clewx.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["*dt"]
+    "author": [".info p:nth-child(1)>span"],
+    "cover": ["img"],
+    "summary": [".intro"],
+    "category": [".info p:nth-child(2)>span, "],
+    "status": [".info p:nth-child(4)"],
+    "update": [".newUpdate_v2 a > p:nth-child(2)"],
+    "lastChapter": [".newUpdate_v2 a"],
+    "link": ["*dl > a:nth-child(1)@attr->href"],
+    "catalog": [".load_more"]
+  },
+  "catalog": {
+    "list": "li",
+    "orderBy": 0,
+    "page":{
+    "next": ".next"
+    },
+    "chapter": {
+      "name": "li> a> span",
+      "link": "li> a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".content > p"
+  },
+  "search": {
+    "link": "http://m.clewx.com/search/keyword/?s=${key}",
+    "list": "*dl"
+  }
+}
