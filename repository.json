@@ -8,8 +8,8 @@
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version": 100
-      "beta" : true
+      "version": 100,
+      "beta": true
     }
   ]
 }
