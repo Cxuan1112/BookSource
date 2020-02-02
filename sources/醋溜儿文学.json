@@ -13,7 +13,7 @@
     "status": [".info p:nth-child(4)"],
     "update": [".newUpdate_v2 a > p:nth-child(2)"],
     "lastChapter": [".newUpdate_v2 a"],
-    "link": ["dl > a@attr->href"],
+    "link": [".partlist-info > dl > a@attr->href"],
     "catalog": [".load_more"]
   },
   "catalog": {
