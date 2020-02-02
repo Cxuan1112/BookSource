@@ -32,6 +32,6 @@
   },
   "search": {
     "link": "http://m.clewx.com/search/keyword/${key}",
-    "list": "*dl> a:nth-of-type(1)@attr->href"
+    "list": "*dl> a@attr->href"
   }
 }
