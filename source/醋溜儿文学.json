@@ -5,7 +5,7 @@
   "url": "http://m.clewx.com",
   "charset": "utf-8",
   "metadata": {
-    "name": ["*dt"]
+    "name": ["*dt"],
     "author": [".info p:nth-child(1)>span"],
     "cover": ["img"],
     "summary": [".intro"],
