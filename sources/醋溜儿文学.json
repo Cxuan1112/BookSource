@@ -32,6 +32,6 @@
   },
   "search": {
     "link": "http://m.clewx.com/search/keyword/${key}",
-    "list": ".partlist-info> dl"
+    "list": "*dl"
   }
 }
