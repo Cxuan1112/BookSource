@@ -5,7 +5,7 @@
   "url": "http://m.clewx.com",
   "charset": "utf-8",
   "metadata": {
-    "name": ["*dt"],
+    "name": ["a > dt"],
     "author": [".info p:nth-child(1)>span"],
     "cover": ["img"],
     "summary": [".intro"],
@@ -13,7 +13,7 @@
     "status": [".info p:nth-child(4)"],
     "update": [".newUpdate_v2 a > p:nth-child(2)"],
     "lastChapter": [".newUpdate_v2 a"],
-    "link": [".partlist-info dl > a@attr->href"],
+    "link": ["dl > a@attr->href"],
     "catalog": [".load_more"]
   },
   "catalog": {
@@ -32,6 +32,6 @@
   },
   "search": {
     "link": "http://m.clewx.com/search/keyword/${key}",
-    "list": "*dl"
+    "list": ".partlist-info>  dl"
   }
 }
