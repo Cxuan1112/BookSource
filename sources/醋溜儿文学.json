@@ -6,25 +6,23 @@
   "charset": "utf-8",
   "metadata": {
     "name": ["a > dt"],
-    "author": [".info p:nth-child(1)>span"],
+    "author": [".info p:nth-child(1)>span",".other_info > span:nth-child(1)"],
     "cover": ["img"],
-    "summary": [".intro"],
+    "summary": [".des"],
     "category": [".info p:nth-child(2)>span, "],
     "status": [".info p:nth-child(4)"],
-    "update": [".newUpdate_v2 a > p:nth-child(2)"],
-    "lastChapter": [".newUpdate_v2 a"],
+    "update": [".latest >dl:nth-of-type(1)"],
+    "lastChapter": [".latest >dl:nth-of-type(2) > dd"],
     "link": [".partlist-info > dl > a@attr->href"],
-    "catalog": [".load_more"]
+    "catalog": [".partlist-info > dl > a@attr->href"]
   },
   "catalog": {
-    "list": "li",
-    "orderBy": 0,
-    "page":{
-    "next": ".next"
+    "list": ".con",
+    "orderBy": 0
     },
     "chapter": {
-      "name": "li> a> span",
-      "link": "li> a@attr->href"
+      "name": ".con dd > a",
+      "link": ".con dd > a@attr->href"
     }
   },
   "content": {
