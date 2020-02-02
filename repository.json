@@ -7,8 +7,9 @@
       "url": "http://m.clewx.com/",
       "category": 1,
       "rank": 0,
-      "auth": "false",
+      "auth": false,
       "version": 100
+      "beta": true
     }
   ]
 }
