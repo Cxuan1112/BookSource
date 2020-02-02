@@ -31,7 +31,7 @@
     "text": ".content > p"
   },
   "search": {
-    "link": "http://m.clewx.com/search/keyword/?s=${key}",
+    "link": "http://m.clewx.com/search/keyword/${key}",
     "list": "*dl"
   }
 }
